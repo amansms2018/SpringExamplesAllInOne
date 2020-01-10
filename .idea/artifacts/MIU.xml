@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MIU">
+    <output-path>$PROJECT_DIR$/out/artifacts/MIU</output-path>
+    <root id="root" />
+  </artifact>
+</component>

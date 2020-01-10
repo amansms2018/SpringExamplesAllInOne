@@ -16,6 +16,10 @@ public class BookController {
     @Autowired
     private BookRepository repository;
 
+    @GetMapping("/")
+    String  greeting(){
+        return  "Hello  World to all people!!";
+    }
     // Find
     @GetMapping("/books")
     ResponseEntity<?> findAll() {
